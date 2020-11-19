@@ -1605,7 +1605,7 @@
      * `isEqualWith`, `isError`, `isFinite`, `isFunction`, `isInteger`, `isLength`,
      * `isMap`, `isMatch`, `isMatchWith`, `isNaN`, `isNative`, `isNil`, `isNull`,
      * `isNumber`, `isObject`, `isObjectLike`, `isPlainObject`, `isRegExp`,
-     * `isSafeInteger`, `isSet`, `isString`, `isUndefined`, `isTypedArray`,
+     * `isSafeInteger`, `isSet`, `isString`, `isUndefined`, `isDefined`, `isTypedArray`,
      * `isWeakMap`, `isWeakSet`, `join`, `kebabCase`, `last`, `lastIndexOf`,
      * `lowerCase`, `lowerFirst`, `lt`, `lte`, `max`, `maxBy`, `mean`, `meanBy`,
      * `min`, `minBy`, `multiply`, `noConflict`, `noop`, `now`, `nth`, `pad`,
@@ -16832,6 +16832,7 @@
     lodash.isSymbol = isSymbol;
     lodash.isTypedArray = isTypedArray;
     lodash.isUndefined = isUndefined;
+    lodash.isDefined = isDefined;
     lodash.isWeakMap = isWeakMap;
     lodash.isWeakSet = isWeakSet;
     lodash.join = join;
