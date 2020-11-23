@@ -12237,10 +12237,10 @@
      * @example
      *
      * _.isDefined(void 0);
-     * // => false
+     * // => true
      *
      * _.isDefined(null);
-     * // => true
+     * // => false
      */
     function isDefined(value) {
       return value !== undefined;
